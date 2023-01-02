@@ -6,9 +6,9 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
+    steps:    
     - name: 📂 Sync files
+      uses: actions/checkout@v2
       with:
         server: 151.106.124.159
         port: 65002
