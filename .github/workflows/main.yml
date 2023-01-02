@@ -9,7 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: 151.106.124.159
         port: 65002
