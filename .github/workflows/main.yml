@@ -11,4 +11,4 @@ jobs:
         server: ftp://dronifion.com
         username: u660008365.delisite.gq
         password: ${{ secrets.ftp_password }}
-        local-dir: /home/u660008365/domains/delisite.gq/public_html
+        local-dir: /home/u660008365/domains/delisite.gq/public_html/
