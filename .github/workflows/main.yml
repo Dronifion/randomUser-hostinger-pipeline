@@ -11,3 +11,4 @@ jobs:
         server: ftp://dronifion.com
         username: u660008365.delisite.gq
         password: ${{ secrets.ftp_password }}        
+        SSH_KEY: 'axBSTXaW4xUXm2MV+AiGnr/5i9SPj0NFo7kWimuOMO0'
